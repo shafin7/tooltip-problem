@@ -1,0 +1,25 @@
+.section-wrapper {
+    margin: auto;
+    width: 500px;
+}
+
+.asd-tooltip {
+    position: relative;
+}
+
+span.asd-tooltiptext {
+    position: absolute;
+    visibility: hidden;    
+    opacity: 0;
+    background: #458;
+    color: #fff;
+    padding: 5px 10px;
+    top: 100%;
+    left: 0;
+    transition: 3s;
+}
+
+.asd-tooltip:hover span.asd-tooltiptext {
+    opacity: 1;
+    visibility: visible;
+}
